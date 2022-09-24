@@ -210,12 +210,18 @@ html {
 .thyself_bottom_set_plant {
   bottom: 8%;
 }
+
 /* ----------------------------Our-Mission------------------------------- */
 .border_redius {
   border-radius: 15.009px;
 }
 .our_mission_side_dots {
   bottom: -10%;
+}
+/* ----------------------------We Offer-------------------------------- */
+.img_zoom:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 /* ----------------------------ALL-ANIMATIONS_KEYFRAMES------------------------------ */
 .grow_shrink {
@@ -246,9 +252,9 @@ html {
   background-color: var(--light_brown);
   color: var(--color_white);
   cursor: pointer;
-  padding: 10px;
-  border-radius: 10px !important;
-  border: 2px solid transparent !important;
+  padding: 6px;
+  border-radius: 25px !important;
+  border: 2px solid var(--light_brown) !important;
   box-shadow: 0px 15.7594px 53.2818px -22px rgba(0, 0, 0, 0.09);
   animation: loading 3s ease-in-out infinite;
 }
