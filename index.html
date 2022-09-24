@@ -36,18 +36,103 @@
   </head>
   <body>
     <!--=-=-==-=-=--==-==-=-=-=- HERO-SECTION =-=-==-=-=--==-==-=-=-=- -->
-    <header class="hero_bg vh-100">
+    <header class="hero_bg position-relative vh-100" id="Home">
+      <nav class="navbar container">
+        <!-- LOGO -->
+        <div class="logo">
+          <img src="/assets/image/png/navbar/nav_icon.png" alt="nav_icon" />
+          <p class="ps-2 light_brown opacity_7 fs_12px fw-normal ff_inter">
+            Nisl integer id dignissin
+          </p>
+        </div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Core_values">Core values </a></li>
+
+            <li><a href="/">Purpose</a></li>
+            <li><a href="#Mission">Mission</a></li>
+            <li><a href="#Offer">Offer</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </div>
+        </ul>
+        <a class="common_btn d-none d-lg-inline" href="">Sign Up</a>
+      </nav>
       <div class="container">
-        <div class="row">
-          <div class="col-12"></div>
-          <div class="col-12"></div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-lg-5 z_index_5 pt-lg-5 my-auto">
+            <div class="  ">
+              <h1 class="hero_heading text-white pe-3">
+                A healthy mind, in a
+                <span class="light_brown">healthy body</span>
+              </h1>
+              <p class="para text-white py-4">
+                Nisl integer id dignissim sed. Quis eu a neque aenean. Cursus
+                enim ut eget urna at. Suspendisse pretium risus et et ante
+                habitasse venenatis. Arcu vitae sapien suspendisse orci.
+              </p>
+              <a class="common_btn" href="">Get Started</a>
+            </div>
+            <div class="row pt-3 pt-md-4">
+              <div
+                class="col-12 col-sm-6 col-lg-3 text-center cursor_point pb-md-3 img_zoom"
+              >
+                <div class="cards_shadow border_redius pt-3 pb-2">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 pb-lg-2 ff_inter">
+                    94%
+                  </h4>
+                  <p class="para text-dark">Bibendum</p>
+                </div>
+              </div>
+              <div
+                class="col-12 col-sm-6 col-lg-3 text-center cursor_point py-3 py-sm-0 img_zoom bg_hover"
+              >
+                <div class="cards_shadow border_redius pt-3 pb-2">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">70M+</h4>
+                  <p class="para text-dark">Lobortis</p>
+                </div>
+              </div>
+              <div
+                class="col-12 col-sm-6 col-lg-3 text-center cursor_point z_index_5 img_zoom"
+              >
+                <div class="cards_shadow border_redius pt-3 pb-2">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">10K+</h4>
+                  <p class="para text-dark">Nulla dignissim</p>
+                </div>
+              </div>
+              <div
+                class="col-12 col-sm-6 col-lg-3 text-center cursor_point"
+              ></div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 z_index_5"></div>
         </div>
       </div>
+      <img
+        src="/assets/image/png/hero/hero_left_set_one.png"
+        alt="hero_left_set_one"
+        class="position-absolute grow_shrink hero_left_set_one start-0"
+      />
+      <img
+        src="/assets/image/png/hero/hero_center_plant.png"
+        alt="hero_left_set_one"
+        class="position-absolute grow_shrink hero_center_plant"
+      />
+      <img
+        src="/assets/image/png/hero/hero_sound_mind.png"
+        alt="hero_left_set_one"
+        class="position-absolute hero_sound_mind w-25"
+      />
     </header>
     <!--=-=-==-=-=--==-==-=-=-=- MAIN-SECTIONS =-=-==-=-=--==-==-=-=-=- -->
     <main>
       <!--=-=-==-=-=--==-==-=-=-=- Core-Values =-=-==-=-=--==-==-=-=-=- -->
-      <section class="position-relative py-3 py-md-3 py-lg-4">
+      <section class="position-relative py-3 py-md-3 py-lg-4" id="Core_values">
         <div class="container py-5 my-lg-5">
           <div class="row py-5 my-lg-2">
             <div class="col-12 col-lg-4 z_index_5">
@@ -111,7 +196,7 @@
         />
       </section>
       <!--=-=-==-=-=--==-==-=-=-=- Our-Mission =-=-==-=-=--==-==-=-=-=- -->
-      <section class="py-md-4 py-lg-5 my-5 position-relative">
+      <section class="py-md-4 py-lg-5 my-5 position-relative" id="Mission">
         <div class="container">
           <div class="row flex-column-reverse flex-lg-row">
             <div
@@ -190,7 +275,7 @@
         />
       </section>
       <!--=-=-==-=-=--==-==-=-=-=- WE-OFFER =-=-==-=-=--==-==-=-=-=- -->
-      <section class="py-3 py-md-4 py-lg-5">
+      <section class="py-3 py-md-4 py-lg-5" id="Offer">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-lg-5 text-center z_index_5">
@@ -277,7 +362,7 @@
       </section>
     </main>
     <!-------------------------- CONTACT US SECTION ------------------------>
-    <section class="bg_contact py-5">
+    <section class="bg_contact py-5" id="Contact">
       <div class="container">
         <div class="row justify-content-center justify-content-md-between">
           <div class="col-10 col-md-4">
@@ -296,7 +381,7 @@
               You’ll find us at all hours on Discord. You can also reach us
               through the usual channels.
             </p>
-            <div class="input-group input-group-lg">
+            <div class="input-group input-group-lg position-relative">
               <input
                 type="text"
                 class="form-control"
@@ -307,6 +392,11 @@
               <button class="input-group-text" id="inputGroup-sizing-lg">
                 Sign up
               </button>
+              <img
+                src="/assets/image/svg/inbox.svg"
+                alt=" inbox"
+                class="position-absolute inbox"
+              />
             </div>
           </div>
         </div>
