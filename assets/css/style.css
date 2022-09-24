@@ -222,6 +222,82 @@ html {
 .img_zoom:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
+} /*======================= CONTACT SECTION CLASSES ============================*/
+.bg_contact {
+  background: rgba(255, 251, 245, 1);
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: var(--fs_xs) !important;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3a2314 !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: #ffffff !important;
+  /* box-shadow: 0px 9.89506px 24.0309px -5.65432px rgba(0, 0, 0, 0.25) !important; */
+  border-radius: 5.65432px !important;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: var(--fs_sm) !important;
+  font-weight: 500 !important;
+  font-family: var(--ff_inter) !important;
+  line-height: 1.5;
+  color: var(--color_white) !important;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--light_brown) !important;
+  border: 0.2px solid #3a2314 !important;
+  border-radius: 3px !important;
+  /* box-shadow: 0px 9.89506px 24.0309px -5.65432px rgba(0, 0, 0, 0.25) !important; */
+}
+.input-group-text:hover {
+  color: var(--light_brown) !important;
+  background-color: var(--color_white) !important;
+  border: 0.2px solid #3a2314 !important;
+}
+.input-group-lg > .btn,
+.input-group-lg > .form-control,
+.input-group-lg > .form-select,
+.input-group-lg > .input-group-text {
+  padding: 15px 25px !important;
+  font-size: 1.25rem;
+  border-radius: -1.7rem;
+  box-shadow: 0px 9.89506px 24.0309px -5.65432px rgba(0, 0, 0, 0.25) !important;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -10px !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: 9;
+}
+/*======================= FOOTER CLASSES ============================*/
+.bg_footer {
+  background: var(--light_brown);
+}
+.footer_link {
+  font-size: var(--fs_sm);
+  font-weight: 400;
+  font-family: var(--ff_inter);
+  color: var(--color_white);
+}
+.footer_link:hover {
+  font-size: var(--fs_sm);
+  font-weight: 400;
+  font-family: var(--ff_inter);
+  color: rgb(245, 137, 13);
 }
 /* ----------------------------ALL-ANIMATIONS_KEYFRAMES------------------------------ */
 .grow_shrink {
@@ -254,7 +330,7 @@ html {
   cursor: pointer;
   padding: 6px;
   border-radius: 25px !important;
-  border: 2px solid var(--light_brown) !important;
+  border: 2px solid var(--color_white) !important;
   box-shadow: 0px 15.7594px 53.2818px -22px rgba(0, 0, 0, 0.09);
   animation: loading 3s ease-in-out infinite;
 }
