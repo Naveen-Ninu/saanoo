@@ -4,7 +4,6 @@
   padding: 0px;
   margin: 0px;
   text-decoration: none !important;
-  list-style-type: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: all 0.5s linear;
@@ -20,9 +19,10 @@ html {
   /*=================== FONT-SIZE ============== */
   --fs_xs: 14px;
   --fs_sm: 16px;
-  --fs_md: 22px;
-  --fs_lg: 27px;
+  --fs_md: 20px;
+  --fs_lg: 22px;
   --fs_xl: 32px;
+  --fs_xxl: 40px;
   --fs_2xl: 64px;
   --fs_3xl: 82px;
   /*=================== FONT-WEIGHT ============== */
@@ -37,61 +37,66 @@ html {
 /* ================= MEDIA QUERISE FONT ======================= */
 @media (max-width: 1399.98px) {
   :root {
-    --fs_xs: 16px;
-    --fs_sm: 18px;
+    --fs_xs: 14px;
+    --fs_sm: 16px;
     --fs_md: 20px;
-    --fs_lg: 27px;
-    --fs_xl: 30px;
-    --fs_2xl: 50px;
-    --fs_3xl: 65px;
+    --fs_lg: 22px;
+    --fs_xl: 32px;
+    --fs_xxl: 40px;
+    --fs_2xl: 64px;
+    --fs_3xl: 82px;
   }
 }
 
 @media (max-width: 1199.98px) {
   :root {
-    --fs_xs: 16px;
-    --fs_sm: 18px;
+    --fs_xs: 14px;
+    --fs_sm: 16px;
     --fs_md: 20px;
-    --fs_lg: 27px;
-    --fs_xl: 30px;
-    --fs_2xl: 50px;
-    --fs_3xl: 65px;
+    --fs_lg: 22px;
+    --fs_xl: 32px;
+    --fs_xxl: 40px;
+    --fs_2xl: 64px;
+    --fs_3xl: 82px;
   }
 }
 
 @media (max-width: 991.98px) {
   :root {
-    --fs_xs: 16px;
-    --fs_sm: 18px;
+    --fs_xs: 14px;
+    --fs_sm: 16px;
     --fs_md: 20px;
-    --fs_lg: 27px;
-    --fs_xl: 30px;
-    --fs_2xl: 50px;
-    --fs_3xl: 65px;
+    --fs_lg: 22px;
+    --fs_xl: 32px;
+    --fs_xxl: 40px;
+    --fs_2xl: 64px;
+    --fs_3xl: 82px;
   }
 }
 
 @media (max-width: 767.98px) {
   :root {
-    --fs_xs: 16px;
-    --fs_sm: 18px;
+    --fs_xs: 14px;
+    --fs_sm: 16px;
     --fs_md: 20px;
-    --fs_lg: 27px;
-    --fs_xl: 30px;
-    --fs_2xl: 50px;
-    --fs_3xl: 65px;
+    --fs_lg: 22px;
+    --fs_xl: 32px;
+    --fs_xxl: 40px;
+    --fs_2xl: 64px;
+    --fs_3xl: 82px;
   }
 }
 
 @media (max-width: 575.98px) {
   :root {
-    --fs_xs: 16px;
-    --fs_sm: 18px;
+    --fs_xs: 14px;
+    --fs_sm: 16px;
     --fs_md: 20px;
-    --fs_lg: 27px;
-    --fs_xl: 30px;
-    --fs_2xl: 50px;
-    --fs_3xl: 65px;
+    --fs_lg: 22px;
+    --fs_xl: 32px;
+    --fs_xxl: 40px;
+    --fs_2xl: 56px;
+    --fs_3xl: 82px;
   }
 }
 /* =-=-=-=-=-=-=-=-=-=-=-FONT-SIZE-DEFINE =-=-=-=-=-=-=-=-=-=-=- */
@@ -113,6 +118,9 @@ html {
 
 .fs_xl {
   font-size: var(--fs_xl);
+}
+.fs_xxl {
+  font-size: var(--fs_xxl);
 }
 
 .fs_2xl {
@@ -155,23 +163,24 @@ html {
   font-family: var(--ff_oregano) !important;
 }
 .para {
-  font-size: var(--fs_sm);
+  font-size: var(--fs_sm) !important;
   font-weight: 400 !important;
   font-family: var(--ff_inter);
 }
 .common_btn {
   font-size: var(--fs_sm);
-  font-weight: 600 !important;
   font-family: var(--ff_inter);
   color: var(--color_white);
   padding: 12px 30px;
   transition: 0.5s;
-  border: none;
+  border: 0.5 solid var(--light_brown);
+  border-radius: 3px;
   background-color: var(--light_brown);
 }
 .common_btn:hover {
   color: var(--light_brown);
   background-color: var(--color_white);
+  border: 0.5 solid var(--light_brown);
 }
 .opacity_7 {
   opacity: 0.8;
@@ -186,8 +195,30 @@ html {
 .cursor_point {
   cursor: pointer !important;
 }
+.cards_shadow {
+  background: #ffffff;
+  box-shadow: 0px 15.7594px 53.2818px -22px rgba(0, 0, 0, 0.09);
+}
+.z_index_5 {
+  z-index: 5;
+}
+
+/* ----------------------------Theyself------------------------------- */
+.theyself_bg_clr {
+  background: #fffbf5;
+}
+.thyself_bottom_set_plant {
+  bottom: 8%;
+}
+/* ----------------------------Our-Mission------------------------------- */
+.border_redius {
+  border-radius: 15.009px;
+}
+.our_mission_side_dots {
+  bottom: -10%;
+}
 /* ----------------------------ALL-ANIMATIONS_KEYFRAMES------------------------------ */
-.boxes img {
+.grow_shrink {
   animation: grow-and-shrink 4000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -197,7 +228,7 @@ html {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
   100% {
     transform: scale(1);
@@ -218,6 +249,8 @@ html {
   padding: 10px;
   border-radius: 10px !important;
   border: 2px solid transparent !important;
+  box-shadow: 0px 15.7594px 53.2818px -22px rgba(0, 0, 0, 0.09);
+  animation: loading 3s ease-in-out infinite;
 }
 #myBtn:hover {
   background-color: var(--color_white);
