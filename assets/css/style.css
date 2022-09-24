@@ -12,7 +12,7 @@
 
 body,
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 :root {
@@ -47,7 +47,6 @@ html {
     --fs_3xl: 82px;
   }
 }
-
 @media (max-width: 1199.98px) {
   :root {
     --fs_xs: 14px;
@@ -60,7 +59,6 @@ html {
     --fs_3xl: 82px;
   }
 }
-
 @media (max-width: 991.98px) {
   :root {
     --fs_xs: 14px;
@@ -73,7 +71,6 @@ html {
     --fs_3xl: 82px;
   }
 }
-
 @media (max-width: 767.98px) {
   :root {
     --fs_xs: 14px;
@@ -86,7 +83,6 @@ html {
     --fs_3xl: 82px;
   }
 }
-
 @media (max-width: 575.98px) {
   :root {
     --fs_xs: 14px;
@@ -168,21 +164,17 @@ html {
   font-family: var(--ff_inter);
   opacity: 0.7;
 }
-.common_btn {
+/* .common_btn {
   font-size: var(--fs_sm);
   font-family: var(--ff_inter);
   color: var(--color_white);
-  padding: 12px 30px;
+
   transition: 0.5s;
   border: 0.5 solid var(--light_brown);
   border-radius: 3px;
   background-color: var(--light_brown);
-}
-.common_btn:hover {
-  color: var(--light_brown);
-  background-color: var(--color_white);
-  border: 0.5 solid var(--light_brown);
-}
+} */
+
 .opacity_7 {
   opacity: 0.8;
 }
@@ -204,6 +196,12 @@ html {
   z-index: 5;
 }
 
+/* ----------------------------Hero-css ------------------------------- */
+.hero_bg {
+  background-image: url("/assets/image/png/hero/hero_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 /* ----------------------------Theyself------------------------------- */
 .theyself_bg_clr {
   background: #fffbf5;
@@ -211,7 +209,6 @@ html {
 .thyself_bottom_set_plant {
   bottom: 8%;
 }
-
 /* ----------------------------Our-Mission------------------------------- */
 .border_redius {
   border-radius: 15.009px;
@@ -312,6 +309,17 @@ html {
 .footer_bottom_right_dots {
   bottom: 5%;
 }
+.rotate {
+  transition: transform 0.5s ease-out;
+}
+.rotate:hover {
+  border-radius: 10%;
+  transform: rotate(405deg);
+}
+.sorotatecial:hover svg {
+  transform: rotate(315deg);
+}
+
 /* ----------------------------ALL-ANIMATIONS_KEYFRAMES------------------------------ */
 .grow_shrink {
   animation: grow-and-shrink 4000ms;
@@ -352,6 +360,44 @@ html {
   100% {
     transform: translateY(-10px);
   }
+}
+/* Rectangle In */
+.common_btn {
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  border: 2px solid var(--light_brown) transparent !important;
+  padding: 12px 30px;
+  background: var(--color_white);
+  -webkit-transition-duration: 0.3s;
+  color: #fff !important;
+}
+.common_btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--light_brown);
+  border: 2px solid var(--light_brown) transparent !important;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.common_btn:hover,
+.common_btn:focus,
+.common_btn:active {
+  color: var(--light_brown) !important;
+  border: 2px solid var(--light_brown) !important;
+}
+.common_btn:hover:before,
+.common_btn:focus:before,
+.common_btn:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
 }
 
 /* ----------------------------BACK-TO-TOP_CSS------------------------------ */
