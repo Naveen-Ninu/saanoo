@@ -28,7 +28,7 @@ html {
   /*=================== FONT-WEIGHT ============== */
   --fw_regular: 500;
   /*=================== FONT-FAMILY ============== */
-  --ff_oregano: "Oregano", cursive;
+  --ff_oregano: "Oregano";
   --ff_inter: "Inter", sans-serif;
   /*=================== COLORS ============== */
   --color_white: #ffffff;
