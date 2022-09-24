@@ -166,6 +166,7 @@ html {
   font-size: var(--fs_sm) !important;
   font-weight: 400 !important;
   font-family: var(--ff_inter);
+  opacity: 0.7;
 }
 .common_btn {
   font-size: var(--fs_sm);
@@ -292,12 +293,24 @@ html {
   font-weight: 400;
   font-family: var(--ff_inter);
   color: var(--color_white);
+  opacity: 0.7;
 }
 .footer_link:hover {
   font-size: var(--fs_sm);
   font-weight: 400;
   font-family: var(--ff_inter);
   color: rgb(245, 137, 13);
+}
+.footer_under_line {
+  padding-top: 5px;
+  color: var(--color_white);
+  border-top: 2px solid var(--color_white);
+}
+.footer_bottom_plant {
+  bottom: 6%;
+}
+.footer_bottom_right_dots {
+  bottom: 5%;
 }
 /* ----------------------------ALL-ANIMATIONS_KEYFRAMES------------------------------ */
 .grow_shrink {
@@ -316,6 +329,31 @@ html {
     transform: scale(1);
   }
 }
+.up_down_animation {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+.up_down_animation {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 /* ----------------------------BACK-TO-TOP_CSS------------------------------ */
 #myBtn {
   /* display: none; */
