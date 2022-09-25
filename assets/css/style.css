@@ -33,6 +33,7 @@ html {
   /*=================== COLORS ============== */
   --color_white: #ffffff;
   --light_brown: #3a2314;
+  --color_khaki: #f0d9be;
 }
 /* ================= MEDIA QUERISE FONT ======================= */
 @media (max-width: 1399.98px) {
@@ -92,7 +93,7 @@ html {
     --fs_xl: 32px;
     --fs_xxl: 40px;
     --fs_2xl: 56px;
-    --fs_3xl: 82px;
+    --fs_3xl: 44px;
   }
 }
 /* =-=-=-=-=-=-=-=-=-=-=-FONT-SIZE-DEFINE =-=-=-=-=-=-=-=-=-=-=- */
@@ -146,6 +147,9 @@ html {
 }
 .light_brown {
   color: var(--light_brown) !important;
+}
+.light_khaki {
+  color: var(--color_khaki) !important;
 }
 
 /* =-=-=-=-=-=-==-=-=-=-=-COMMON-CLASSES =-=-=-=-=-=-==-=-=-=-=- */
@@ -309,6 +313,14 @@ input[type="checkbox"] {
 .hero_center_plant {
   right: 47%;
   bottom: 20%;
+}
+.hero_card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(66.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15.009px;
 }
 /* ----------------------------Theyself------------------------------- */
 .theyself_bg_clr {
