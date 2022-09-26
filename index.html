@@ -68,8 +68,8 @@
 
   <body>
     <!--=-=-==-=-=--==-==-=-=-=- HERO-SECTION =-=-==-=-=--==-==-=-=-=- -->
-    <header class="hero_bg position-relative pb-3" id="Home">
-      <nav class="navbar container">
+    <header class="hero_bg position-relative vh-100 pb-3" id="Home">
+      <nav class="navbar container pt-0">
         <!-- LOGO -->
         <div class="logo">
           <img src="/assets/image/png/navbar/nav_icon.png" alt="nav_icon" />
@@ -100,7 +100,7 @@
           <div
             class="col-12 col-lg-6 text-center text-lg-start z_index_5 pt-lg-5 my-auto"
           >
-            <div class="  ">
+            <div class="my-5 my-md-0">
               <h1
                 class="hero_heading text-white pe-lg-3"
                 data-aos="zoom-in-down"
@@ -193,7 +193,7 @@
     <!--=-=-==-=-=--==-==-=-=-=- MAIN-SECTIONS =-=-==-=-=--==-==-=-=-=- -->
     <main>
       <!--=-=-==-=-=--==-==-=-=-=- Core-Values =-=-==-=-=--==-==-=-=-=- -->
-      <section class="position-relative py-3 py-md-3 py-lg-4" id="Core_values">
+      <!-- <section class="position-relative py-3 py-md-3 py-lg-4" id="Core_values">
         <div class="container py-5 my-lg-5">
           <div
             class="row py-5 my-lg-2 justify-content-center justify-content-md-between"
@@ -273,7 +273,7 @@
           class="position-absolute grow_shrink top-0 start-0"
           alt=""
         />
-      </section>
+      </section> -->
       <!--=-=-==-=-=--==-==-=-=-=- Heal-Thyself =-=-==-=-=--==-==-=-=-=- -->
       <section class="theyself_bg_clr position-relative py-5 py-md-4 py-lg-5">
         <div class="container">
@@ -471,7 +471,7 @@
             <div
               class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
             >
-              <div>
+              <div data-tilt data-tilt-scale="1.0">
                 <img
                   src="/assets/image/png/we_offer/card_one.png"
                   alt="card_one"
@@ -490,7 +490,7 @@
             <div
               class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
             >
-              <div class="">
+              <div data-tilt data-tilt-scale="1.0">
                 <img
                   src="/assets/image/png/we_offer/card_two.png"
                   alt="card_two"
@@ -509,7 +509,7 @@
             <div
               class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
             >
-              <div class="">
+              <div data-tilt data-tilt-scale="1.0">
                 <img
                   src="/assets/image/png/we_offer/card_three.png"
                   data-aos="zoom-in-up"
@@ -528,7 +528,7 @@
             <div
               class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
             >
-              <div class="">
+              <div data-tilt data-tilt-scale="1.0">
                 <img
                   src="/assets/image/png/we_offer/card_four.png"
                   alt="card_four"
@@ -558,7 +558,7 @@
     <section class="bg_contact py-5" id="Contact">
       <div class="container">
         <div class="row justify-content-center justify-content-md-between">
-          <div class="col-10 col-md-4">
+          <div class="col-12 col-md-4 text-center text-lg-start">
             <h2
               class="fs_2xl fw-normal ff_oregano light_brown"
               data-aos="zoom-in-down"
@@ -583,7 +583,7 @@
               >Get In Touch</a
             >
           </div>
-          <div class="col-10 col-md-6 mt-5 mt-md-4">
+          <div class="col-12 col-md-6 mt-5 mt-md-4 text-center text-lg-start">
             <h3
               class="fs_xxl fw-normal ff_oregano light_brown"
               data-aos="zoom-in-down"
@@ -634,7 +634,7 @@
     <footer class="bg_footer pt-5 pb-1 position-relative">
       <div class="container mb-5">
         <div class="row justify-content-center">
-          <div class="col-10 col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
             <div>
               <a href="#">
                 <img
@@ -676,7 +676,7 @@
               </a>
             </div>
           </div>
-          <div class="col-11 col-md-6 text-center text-md-start">
+          <div class="col-12 col-md-6 text-center text-md-start">
             <div
               class="row justify-content-center"
               data-aos="zoom-in-up"
@@ -733,7 +733,7 @@
                   <a href="#" class="footer_link">About</a>
                 </p>
               </div>
-              <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="col-12 col-md-6 mt-4 mt-md-0">
                 <h6 class="fs_sm fw_semibold ff_inter color_white mb-1 mb-md-4">
                   Privacy
                 </h6>
@@ -801,5 +801,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--=-=-=-=-=-=-=-=-=-==-==--= COUSTOM-JS-LINK =-=-=-=-=-=-=-=-=-==-==--= -->
     <script src="./assets/js/custom.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- https://github.com/gijsroge/tilt.js -->
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
   </body>
 </html>
