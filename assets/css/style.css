@@ -272,17 +272,22 @@ input[type="checkbox"] {
   }
   .menu li:hover {
     display: inline-block;
-    background-color: #4c9e9e;
+    background-color: var(--color_khaki);
     transition: 0.3s ease;
   }
   .menu li + li {
     margin-top: 12px;
   }
   input[type="checkbox"]:checked ~ .menu {
+    z-index: 10;
     display: block;
+    height: 100vh;
+    margin-top: -51px;
   }
   .hamburger {
     display: block;
+    padding-right: 20px;
+    z-index: 55;
   }
   .dropdown {
     left: 50%;
