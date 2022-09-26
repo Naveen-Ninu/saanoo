@@ -321,6 +321,15 @@ input[type="checkbox"] {
 
   border-radius: 15.009px;
 }
+/* ----------------------------core-slider------------------------------- */
+.slick-slide {
+  transition: 0.2s ease;
+  transform: translateY(0px) !important;
+}
+.slick-active.slick-center {
+  transform: translateY(-90px) !important;
+  transform: scale(50%, -50%);
+}
 /* ----------------------------Theyself------------------------------- */
 .theyself_bg_clr {
   background: #fffbf5;

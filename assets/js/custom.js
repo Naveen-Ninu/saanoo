@@ -37,3 +37,35 @@ setTimeout(function loader() {
 AOS.init({
   once: true,
 });
+// slider_code
+
+$(".slick_slider").slick({
+  centerMode: true,
+  centerPadding: "60px",
+  slidesToShow: 2,
+  dots: false,
+  infinite: true,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "40px",
+        slidesToShow: 2,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "40px",
+        slidesToShow: 1,
+        dots: true,
+      },
+    },
+  ],
+});
