@@ -29,7 +29,6 @@ setTimeout(function loader() {
   console.log("preloader");
   preloader.style.display = "none";
   body.classList.remove("no-scroll-y");
-  // body.classList.add('no-scroll-x');
   html.classList.add("no-scroll-x");
 }, 3000);
 
