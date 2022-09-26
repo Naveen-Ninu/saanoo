@@ -136,7 +136,6 @@ html {
 .ff_inter {
   font-family: var(--ff_inter);
 }
-
 .ff_oregano {
   font-family: var(--ff_oregano);
 }
@@ -340,7 +339,11 @@ input[type="checkbox"] {
 .img_zoom:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
-} /*======================= CONTACT SECTION CLASSES ============================*/
+}
+.bottom_dots_set {
+  bottom: -16%;
+}
+/*======================= CONTACT SECTION CLASSES ============================*/
 .bg_contact {
   background: rgba(255, 251, 245, 1);
 }
