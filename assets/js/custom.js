@@ -43,7 +43,7 @@ $(".slick_slider").slick({
   centerMode: true,
   centerPadding: "60px",
   slidesToShow: 2,
-  dots: false,
+  dots: true,
   infinite: true,
   slidesToScroll: 1,
   responsive: [
