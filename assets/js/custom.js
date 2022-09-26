@@ -46,7 +46,7 @@ $(".slick_slider").slick({
   dots: true,
   infinite: true,
   slidesToScroll: 1,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
   responsive: [
     {
@@ -55,7 +55,7 @@ $(".slick_slider").slick({
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
-        slidesToShow: 2,
+        slidesToShow: 1,
         dots: true,
       },
     },
@@ -70,44 +70,4 @@ $(".slick_slider").slick({
       },
     },
   ],
-});
-// ======= page-loader =======
-setTimeout(() => {
-  const box = document.getElementById("box");
-
-  box.style.display = "none";
-  document.body.classList.add("overflow_auto");
-}, 2000);
-
-function visible(partial) {
-  var $t = partial,
-    $w = jQuery(window),
-    viewTop = $w.scrollTop(),
-    viewBottom = viewTop + $w.height(),
-    _top = $t.offset().top,
-    _bottom = _top + $t.height(),
-    compareTop = partial === true ? _bottom : _top,
-    compareBottom = partial === true ? _top : _bottom;
-  return (
-    compareBottom <= viewBottom && compareTop >= viewTop && $t.is(":visible")
-  );
-}
-$(window).scroll(function () {
-  if (visible($(".count-digit"))) {
-    if ($(".count-digit").hasClass("counter-loaded")) return;
-    $(".count-digit").addClass("counter-loaded");
-    $(".count-digit").each(function () {
-      var $this = $(this);
-      jQuery({ Counter: 0 }).animate(
-        { Counter: $this.text() },
-        {
-          duration: 3000,
-          easing: "swing",
-          step: function () {
-            $this.text(Math.ceil(this.Counter));
-          },
-        }
-      );
-    });
-  }
 });
