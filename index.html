@@ -1,774 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--=-=-=-=-=-=-=-=-=-=-=-=- CSS-LINK =-=-=-=-=-=-=-=-=-=-=-= -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <!--=-=-=-=-=-=-=-=-=-=-=-=- FAV-ICON-LINK =-=-=-=-=-=-=-=-=- -->
-    <link rel="icon" href="/assets/image/png/we_offer/card_four.png" />
-    <!-- =-=-=-=-=-=-=-==-=-AOS-ANIMATION-LINK =-=-=-=-=-=-=-==-=- -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>saanoo</title>
-    <!-- -----------------SLICK-MIN-CSS-LINK-------------------- -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- -----------------SLICK-THEME-MIN-CSS-LINK-------------------- -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--=-=-=-=-=-=-=-=-=-==-==--= BOOTSTRAP-LINK =-=-=-=-=-=-=-=-=-==-==--= -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!--=-=-==-=-=--==-==-=-=-=- HERO-SECTION =-=-==-=-=--==-==-=-=-=- -->
-    <header class="hero_bg position-relative pb-3" id="Home">
-      <nav class="navbar container">
-        <!-- LOGO -->
-        <div class="logo">
-          <img src="/assets/image/png/navbar/nav_icon.png" alt="nav_icon" />
-          <p class="ps-2 light_brown opacity_7 fs_12px fw-normal ff_inter">
-            Nisl integer id dignissin
-          </p>
-        </div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Core_values">Core values </a></li>
 
-            <li><a href="/">Purpose</a></li>
-            <li><a href="#Mission">Mission</a></li>
-            <li><a href="#Offer">Offer</a></li>
-            <li><a href="#Contact">Contact</a></li>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--=-=-=-=-=-=-=-=-=-=-=-=- CSS-LINK =-=-=-=-=-=-=-=-=-=-=-= -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <!--=-=-=-=-=-=-=-=-=-=-=-=- FAV-ICON-LINK =-=-=-=-=-=-=-=-=- -->
+  <link rel="icon" href="/assets/image/png/we_offer/card_four.png" />
+  <!-- =-=-=-=-=-=-=-==-=-AOS-ANIMATION-LINK =-=-=-=-=-=-=-==-=- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>saanoo</title>
+  <!-- -----------------SLICK-MIN-CSS-LINK-------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- -----------------SLICK-THEME-MIN-CSS-LINK-------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--=-=-=-=-=-=-=-=-=-==-==--= BOOTSTRAP-LINK =-=-=-=-=-=-=-=-=-==-==--= -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--=-=-==-=-=--==-==-=-=-=- HERO-SECTION =-=-==-=-=--==-==-=-=-=- -->
+  <header class="hero_bg position-relative pb-3" id="Home">
+    <nav class="navbar container">
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="/assets/image/png/navbar/nav_icon.png" alt="nav_icon" />
+        <p class="ps-2 light_brown opacity_7 fs_12px fw-normal ff_inter">
+          Nisl integer id dignissin
+        </p>
+      </div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Core_values">Core values </a></li>
+
+          <li><a href="/">Purpose</a></li>
+          <li><a href="#Mission">Mission</a></li>
+          <li><a href="#Offer">Offer</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </div>
+      </ul>
+      <a class="navbar_btn d-none d-lg-inline" href="">Sign Up</a>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 text-center text-lg-start z_index_5 pt-lg-5 my-auto">
+          <div class="  ">
+            <h1 class="hero_heading text-white pe-lg-3" data-aos="zoom-in-down" data-aos-duration="1500">
+              A healthy mind, in a
+              <span class="light_brown">healthy body</span>
+            </h1>
+            <p class="para text-white py-2 py-md-4" data-aos="fade-up" data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom">
+              Nisl integer id dignissim sed. Quis eu a neque aenean. Cursus
+              enim ut eget urna at. Suspendisse pretium risus et et ante
+              habitasse venenatis. Arcu vitae sapien suspendisse orci.
+            </p>
+            <a class="common_btn" href="" data-aos="fade-right" data-aos-duration="1500">Get Started</a>
           </div>
-        </ul>
-        <a class="common_btn d-none d-lg-inline" href="">Sign Up</a>
-      </nav>
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div
-            class="col-12 col-lg-6 text-center text-lg-start z_index_5 pt-lg-5 my-auto"
-          >
-            <div class="  ">
-              <h1
-                class="hero_heading text-white pe-lg-3"
-                data-aos="zoom-in-down"
-                data-aos-duration="1500"
-              >
-                A healthy mind, in a
-                <span class="light_brown">healthy body</span>
-              </h1>
-              <p
-                class="para text-white py-2 py-md-4"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-anchor-placement="center-bottom"
-              >
-                > Nisl integer id dignissim sed. Quis eu a neque aenean. Cursus
-                enim ut eget urna at. Suspendisse pretium risus et et ante
-                habitasse venenatis. Arcu vitae sapien suspendisse orci.
-              </p>
-              <a
-                class="common_btn"
-                href=""
-                data-aos="fade-right"
-                data-aos-duration="1500"
-                >Get Started</a
-              >
+          <div class="row justify-content-center pt-3 pt-md-4 pb-4">
+            <div class="col-10 col-sm-6 col-lg-3 text-center cursor_point mb-3 mb-md-0 img_zoom">
+              <div class="hero_card border_redius pt-3 pb-2" data-aos="flip-left" data-aos-duration="1500">
+                <h4 class="fs_xl fw-bold light_khaki pb-1 pb-lg-2 ff_inter">
+                  94%
+                </h4>
+                <p class="para text-dark">Bibendum</p>
+              </div>
             </div>
-            <div class="row justify-content-center pt-3 pt-md-4 pb-4">
-              <div
-                class="col-10 col-sm-6 col-lg-3 text-center cursor_point mb-3 mb-md-0 img_zoom"
-              >
-                <div
-                  class="hero_card border_redius pt-3 pb-2"
-                  data-aos="flip-left"
-                  data-aos-duration="1500"
-                >
-                  <h4 class="fs_xl fw-bold light_khaki pb-1 pb-lg-2 ff_inter">
+            <div class="col-10 col-sm-6 col-lg-3 text-center cursor_point pb-3 py-sm-0 img_zoom bg_hover">
+              <div class="hero_card border_redius pt-3 pb-2" data-aos="flip-left" data-aos-duration="1500">
+                <h4 class="fs_xl fw-bold light_khaki pb-1 ff_inter">70M+</h4>
+                <p class="para text-dark">Lobortis</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 text-center cursor_point z_index_5 img_zoom">
+              <div class="hero_card border_redius pt-3 pb-2" data-aos="flip-left" data-aos-duration="1500">
+                <h4 class="fs_xl fw-bold light_khaki pb-1 ff_inter">10K+</h4>
+                <p class="para text-dark">Nulla dignissim</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 text-center cursor_point"></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 z_index_5"></div>
+      </div>
+    </div>
+    <img src="/assets/image/png/hero/hero_left_set_one.png" alt="hero_left_set_one"
+      class="position-absolute d-none d-md-inline grow_shrink hero_left_set_one start-0" />
+    <img src="/assets/image/png/hero/hero_center_plant.png" alt="hero_left_set_one"
+      class="position-absolute grow_shrink hero_center_plant" />
+    <img src="/assets/image/png/hero/hero_sound_mind.png" alt="hero_left_set_one"
+      class="position-absolute hero_sound_mind w-25" />
+  </header>
+  <!--=-=-==-=-=--==-==-=-=-=- MAIN-SECTIONS =-=-==-=-=--==-==-=-=-=- -->
+  <main>
+    <!--=-=-==-=-=--==-==-=-=-=- Core-Values =-=-==-=-=--==-==-=-=-=- -->
+    <section class="position-relative py-3 py-md-3 py-lg-4" id="Core_values">
+      <div class="container py-5 my-lg-5">
+        <div class="row py-5 my-lg-2 justify-content-center justify-content-md-between">
+          <div class="col-12 col-lg-4 z_index_5">
+            <div class="w-100">
+              <h2 class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3" data-aos="zoom-in-down"
+                data-aos-duration="1500">
+                Core Values
+              </h2>
+              <p class="para pb-3 pb-md-4 pb-5" data-aos="fade-up" data-aos-duration="1500"
+                data-aos-anchor-placement="center-bottom">
+                Nisl integer id dignissim sed. Quis eu a neque aenean. Cursus
+                enim pretium risuset etante ut eget urna at.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-7 z_index_5 position-absolute end-0 z_index_5">
+            <div class="slick_slider">
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_one.png" alt="slider-img-1" class="mx-2" />
+              </div>
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_two.png" alt="slider-img-2" class="mx-2" />
+              </div>
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_three.png" alt="slider-img-3" class="mx-2" />
+              </div>
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_one.png" alt="slider-img-1" class="mx-2" />
+              </div>
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_two.png" alt="slider-img-2" class="mx-2" />
+              </div>
+              <div class="">
+                <img src="./assets/image/png/core_values/core_card_three.png" alt="slider-img-3" class="mx-2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="/assets/image/png/core_values/doats_start.png" class="position-absolute grow_shrink top-0 start-0"
+        alt="" />
+    </section>
+    <!--=-=-==-=-=--==-==-=-=-=- Heal-Thyself =-=-==-=-=--==-==-=-=-=- -->
+    <section class="theyself_bg_clr position-relative py-5 py-md-4 py-lg-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 text-center">
+            <div class="w-100">
+              <img src="/assets/image/png/thyself/theyself.png" alt="thyself" class="w-75" data-aos="zoom-in-right"
+                data-aos-duration="1500" />
+            </div>
+          </div>
+          <div class="col-12 col-md-11 col-lg-5 text-center text-lg-start my-auto z_index_5 pe-lg-5 py-3 py-md-5">
+            <p class="para light_brown fw-semibold ff_inter mb-1" data-aos="fade-right" data-aos-duration="1500">
+              Vision
+            </p>
+            <h2 class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3" data-aos="zoom-in-down"
+              data-aos-duration="1500">
+              To heal thyself
+            </h2>
+            <p class="para pb-3 pb-md-4 pb-5" data-aos="fade-up" data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom">
+              Bibendum venenatis varius malesuada commodo, nunc in.
+              Ullamcorper et sed nunc faucibus nunc. Lobortis vitae morbi sed
+              ornare rutrumpharetra, eget in eu. Nulla dignissim sit feugiat
+              volutpat fusce sed.
+            </p>
+            <a class="common_btn fw_regular" href="" data-aos="fade-left" data-aos-duration="1500">Read More</a>
+          </div>
+        </div>
+      </div>
+      <img src="/assets/image/png/thyself/thyself_bottom_set_plant.png"
+        class="position-absolute thyself_bottom_set_plant grow_shrink end-0" alt="" />
+    </section>
+    <!--=-=-==-=-=--==-==-=-=-=- Our-Mission =-=-==-=-=--==-==-=-=-=- -->
+    <section class="py-md-4 py-lg-5 my-5 position-relative" id="Mission">
+      <div class="container">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-12 col-lg-7 my-auto text-center text-lg-start pt-3 pt-md-4 pt-lg-0">
+            <h2 class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3" data-aos="zoom-in-down"
+              data-aos-duration="1500">
+              Our-Mission
+            </h2>
+            <ul class="text-start mt-2 mt-md-3">
+              <li class="para text-black fw-normal ff_inter" data-aos="fade-right" data-aos-duration="1500">
+                Inspiring natural healing from the inside out.
+              </li>
+              <li class="para text-black fw-normal ff_inter py-1" data-aos="fade-left" data-aos-duration="1500">
+                The ‘new’ coffee shop.
+              </li>
+              <li class="para text-black fw-normal ff_inter" data-aos="fade-right" data-aos-duration="1500">
+                Normalizing detox and self care.
+              </li>
+              <li class="para text-black fw-normal ff_inter py-1" data-aos="fade-left" data-aos-duration="1500">
+                Replacing espresso with cold plunge.
+              </li>
+            </ul>
+            <div class="row pt-3 pt-md-4">
+              <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point pb-md-3 img_zoom">
+                <div class="cards_shadow border_redius pt-3 pb-2" data-aos="flip-right" data-aos-duration="1500">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 pb-lg-2 ff_inter">
                     94%
                   </h4>
                   <p class="para text-dark">Bibendum</p>
                 </div>
               </div>
-              <div
-                class="col-10 col-sm-6 col-lg-3 text-center cursor_point pb-3 py-sm-0 img_zoom bg_hover"
-              >
-                <div
-                  class="hero_card border_redius pt-3 pb-2"
-                  data-aos="flip-left"
-                  data-aos-duration="1500"
-                >
-                  <h4 class="fs_xl fw-bold light_khaki pb-1 ff_inter">70M+</h4>
+              <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point py-3 py-sm-0 img_zoom">
+                <div class="cards_shadow border_redius pt-3 pb-2" data-aos="flip-right" data-aos-duration="1500">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">
+                    70M+
+                  </h4>
                   <p class="para text-dark">Lobortis</p>
                 </div>
               </div>
-              <div
-                class="col-10 col-sm-6 col-lg-3 text-center cursor_point z_index_5 img_zoom"
-              >
-                <div
-                  class="hero_card border_redius pt-3 pb-2"
-                  data-aos="flip-left"
-                  data-aos-duration="1500"
-                >
-                  <h4 class="fs_xl fw-bold light_khaki pb-1 ff_inter">10K+</h4>
+              <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point z_index_5 img_zoom">
+                <div class="cards_shadow border_redius pt-3 pb-2" data-aos="flip-right" data-aos-duration="1500">
+                  <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">
+                    10K+
+                  </h4>
                   <p class="para text-dark">Nulla dignissim</p>
                 </div>
               </div>
-              <div
-                class="col-10 col-sm-6 col-lg-3 text-center cursor_point"
-              ></div>
+              <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point"></div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 z_index_5"></div>
-        </div>
-      </div>
-      <img
-        src="/assets/image/png/hero/hero_left_set_one.png"
-        alt="hero_left_set_one"
-        class="position-absolute d-none d-md-inline grow_shrink hero_left_set_one start-0"
-      />
-      <img
-        src="/assets/image/png/hero/hero_center_plant.png"
-        alt="hero_left_set_one"
-        class="position-absolute grow_shrink hero_center_plant"
-      />
-      <img
-        src="/assets/image/png/hero/hero_sound_mind.png"
-        alt="hero_left_set_one"
-        class="position-absolute hero_sound_mind w-25"
-      />
-    </header>
-    <!--=-=-==-=-=--==-==-=-=-=- MAIN-SECTIONS =-=-==-=-=--==-==-=-=-=- -->
-    <main>
-      <!--=-=-==-=-=--==-==-=-=-=- Core-Values =-=-==-=-=--==-==-=-=-=- -->
-      <section class="position-relative py-3 py-md-3 py-lg-4" id="Core_values">
-        <div class="container py-5 my-lg-5">
-          <div
-            class="row py-5 my-lg-2 justify-content-center justify-content-md-between"
-          >
-            <div class="col-12 col-lg-4 z_index_5">
-              <div class="w-100">
-                <h2
-                  class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3"
-                  data-aos="zoom-in-down"
-                  data-aos-duration="1500"
-                >
-                  Core Values
-                </h2>
-                <p
-                  class="para pb-3 pb-md-4 pb-5"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  Nisl integer id dignissim sed. Quis eu a neque aenean. Cursus
-                  enim pretium risuset etante ut eget urna at.
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-12 col-md-7 z_index_5 position-absolute end-0 z_index_5"
-            >
-              <div class="slick_slider">
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_one.png"
-                    alt="slider-img-1"
-                    class="mx-2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_two.png"
-                    alt="slider-img-2"
-                    class="mx-2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_three.png"
-                    alt="slider-img-3"
-                    class="mx-2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_one.png"
-                    alt="slider-img-1"
-                    class="mx-2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_two.png"
-                    alt="slider-img-2"
-                    class="mx-2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="./assets/image/png/core_values/core_card_three.png"
-                    alt="slider-img-3"
-                    class="mx-2"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          src="/assets/image/png/core_values/doats_start.png"
-          class="position-absolute grow_shrink top-0 start-0"
-          alt=""
-        />
-      </section>
-      <!--=-=-==-=-=--==-==-=-=-=- Heal-Thyself =-=-==-=-=--==-==-=-=-=- -->
-      <section class="theyself_bg_clr position-relative py-5 py-md-4 py-lg-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-center">
-              <div class="w-100">
-                <img
-                  src="/assets/image/png/thyself/theyself.png"
-                  alt="thyself"
-                  class="w-75"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="1500"
-                />
-              </div>
-            </div>
-            <div
-              class="col-12 col-md-11 col-lg-5 text-center text-lg-start my-auto z_index_5 pe-lg-5 py-3 py-md-5"
-            >
-              <p
-                class="para light_brown fw-semibold ff_inter mb-1"
-                data-aos="fade-right"
-                data-aos-duration="1500"
-              >
-                Vision
-              </p>
-              <h2
-                class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3"
-                data-aos="zoom-in-down"
-                data-aos-duration="1500"
-              >
-                To heal thyself
-              </h2>
-              <p
-                class="para pb-3 pb-md-4 pb-5"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Bibendum venenatis varius malesuada commodo, nunc in.
-                Ullamcorper et sed nunc faucibus nunc. Lobortis vitae morbi sed
-                ornare rutrumpharetra, eget in eu. Nulla dignissim sit feugiat
-                volutpat fusce sed.
-              </p>
-              <a
-                class="common_btn fw_regular"
-                href=""
-                data-aos="fade-left"
-                data-aos-duration="1500"
-                >Read More</a
-              >
-            </div>
-          </div>
-        </div>
-        <img
-          src="/assets/image/png/thyself/thyself_bottom_set_plant.png"
-          class="position-absolute thyself_bottom_set_plant grow_shrink end-0"
-          alt=""
-        />
-      </section>
-      <!--=-=-==-=-=--==-==-=-=-=- Our-Mission =-=-==-=-=--==-==-=-=-=- -->
-      <section class="py-md-4 py-lg-5 my-5 position-relative" id="Mission">
-        <div class="container">
-          <div class="row flex-column-reverse flex-lg-row">
-            <div
-              class="col-12 col-lg-7 my-auto text-center text-lg-start pt-3 pt-md-4 pt-lg-0"
-            >
-              <h2
-                class="main_heading fw-normal light_brown pb-1 pb-md-2 pb-lg-3"
-                data-aos="zoom-in-down"
-                data-aos-duration="1500"
-              >
-                Our-Mission
-              </h2>
-              <ul class="text-start mt-2 mt-md-3">
-                <li
-                  class="para text-black fw-normal ff_inter"
-                  data-aos="fade-right"
-                  data-aos-duration="1500"
-                >
-                  Inspiring natural healing from the inside out.
-                </li>
-                <li
-                  class="para text-black fw-normal ff_inter py-1"
-                  data-aos="fade-left"
-                  data-aos-duration="1500"
-                >
-                  The ‘new’ coffee shop.
-                </li>
-                <li
-                  class="para text-black fw-normal ff_inter"
-                  data-aos="fade-right"
-                  data-aos-duration="1500"
-                >
-                  Normalizing detox and self care.
-                </li>
-                <li
-                  class="para text-black fw-normal ff_inter py-1"
-                  data-aos="fade-left"
-                  data-aos-duration="1500"
-                >
-                  Replacing espresso with cold plunge.
-                </li>
-              </ul>
-              <div class="row pt-3 pt-md-4">
-                <div
-                  class="col-12 col-sm-6 col-lg-3 text-center cursor_point pb-md-3 img_zoom"
-                >
-                  <div
-                    class="cards_shadow border_redius pt-3 pb-2"
-                    data-aos="flip-right"
-                    data-aos-duration="1500"
-                  >
-                    <h4 class="fs_xl fw-bold light_brown pb-1 pb-lg-2 ff_inter">
-                      94%
-                    </h4>
-                    <p class="para text-dark">Bibendum</p>
-                  </div>
-                </div>
-                <div
-                  class="col-12 col-sm-6 col-lg-3 text-center cursor_point py-3 py-sm-0 img_zoom"
-                >
-                  <div
-                    class="cards_shadow border_redius pt-3 pb-2"
-                    data-aos="flip-right"
-                    data-aos-duration="1500"
-                  >
-                    <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">
-                      70M+
-                    </h4>
-                    <p class="para text-dark">Lobortis</p>
-                  </div>
-                </div>
-                <div
-                  class="col-12 col-sm-6 col-lg-3 text-center cursor_point z_index_5 img_zoom"
-                >
-                  <div
-                    class="cards_shadow border_redius pt-3 pb-2"
-                    data-aos="flip-right"
-                    data-aos-duration="1500"
-                  >
-                    <h4 class="fs_xl fw-bold light_brown pb-1 ff_inter">
-                      10K+
-                    </h4>
-                    <p class="para text-dark">Nulla dignissim</p>
-                  </div>
-                </div>
-                <div
-                  class="col-12 col-sm-6 col-lg-3 text-center cursor_point"
-                ></div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-5 my-auto">
-              <div class="w-100 text-center">
-                <img
-                  src="/assets/image/png/our_mission/our_mission.png"
-                  alt="Our-Mission"
-                  class="w-75"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="1500"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          src="/assets/image/png/our_mission/our_mission_side_dots.png"
-          class="position-absolute our_mission_side_dots grow_shrink start-0"
-          alt=""
-        />
-      </section>
-      <!--=-=-==-=-=--==-==-=-=-=- WE-OFFER =-=-==-=-=--==-==-=-=-=- -->
-      <section class="py-3 py-md-4 py-lg-5 position-relative" id="Offer">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-5 text-center z_index_5">
-              <h2
-                class="main_heading light_brown pb-1 pb-md-2 pb-lg-3"
-                data-aos="zoom-in-down"
-                data-aos-duration="1500"
-              >
-                We Offer
-              </h2>
-              <p
-                class="para text-dark"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Heat, cold, breath, movement and meditation circuit that can be
-                followed in class format or a la carte [free flow].
-              </p>
-            </div>
-          </div>
-          <div class="row pt-3 pt-md-4">
-            <div
-              class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
-            >
-              <div>
-                <img
-                  src="/assets/image/png/we_offer/card_one.png"
-                  alt="card_one"
-                  class="w-100 img_zoom"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="1500"
-                />
-                <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
-                  <h4 class="fs_md fw-semibold light_brown pb-1">Heat</h4>
-                  <p class="para text-dark">
-                    Quis eu a neque aenean. Cursus enim
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
-            >
-              <div class="">
-                <img
-                  src="/assets/image/png/we_offer/card_two.png"
-                  alt="card_two"
-                  class="w-100 img_zoom"
-                  data-aos="zoom-in-up"
-                  data-aos-duration="1500"
-                />
-                <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
-                  <h4 class="fs_md fw-semibold light_brown pb-1">Cold</h4>
-                  <p class="para text-dark">
-                    Quis eu a neque aenean. Cursus enim
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
-            >
-              <div class="">
-                <img
-                  src="/assets/image/png/we_offer/card_three.png"
-                  data-aos="zoom-in-up"
-                  data-aos-duration="1500"
-                  alt="card_three"
-                  class="w-100 img_zoom"
-                />
-                <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
-                  <h4 class="fs_md fw-semibold light_brown pb-1">Breath</h4>
-                  <p class="para text-dark">
-                    Quis eu a neque aenean. Cursus enim
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5"
-            >
-              <div class="">
-                <img
-                  src="/assets/image/png/we_offer/card_four.png"
-                  alt="card_four"
-                  class="w-100 img_zoom"
-                  data-aos="zoom-in-left"
-                  data-aos-duration="1500"
-                />
-                <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
-                  <h4 class="fs_md fw-semibold light_brown pb-1">Movement</h4>
-                  <p class="para text-dark">
-                    Quis eu a neque aenean. Cursus enim
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <img
-          src="/assets/image/png/we_offer/bottom_dots_set.png "
-          class="position-absolute bottom_dots_set grow_shrink start-0"
-          alt="bottom_dots_set"
-        />
-      </section>
-    </main>
-    <!-------------------------- CONTACT US SECTION ------------------------>
-    <section class="bg_contact py-5" id="Contact">
-      <div class="container">
-        <div class="row justify-content-center justify-content-md-between">
-          <div class="col-10 col-md-4">
-            <h2
-              class="fs_2xl fw-normal ff_oregano light_brown"
-              data-aos="zoom-in-down"
-              data-aos-duration="1500"
-            >
-              Contact Us
-            </h2>
-            <p
-              class="para text-dark mb-4"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-anchor-placement="center-bottom"
-            >
-              You’ll find us at all hours on Discord. You can also reach us
-              through the usual channels.
-            </p>
-            <a
-              href="#"
-              class="common_btn fw_regular"
-              data-aos="fade-right"
-              data-aos-duration="1500"
-              >Get In Touch</a
-            >
-          </div>
-          <div class="col-10 col-md-6 mt-5 mt-md-4">
-            <h3
-              class="fs_xxl fw-normal ff_oregano light_brown"
-              data-aos="zoom-in-down"
-              data-aos-duration="1500"
-            >
-              Get the latest updates
-            </h3>
-            <p
-              class="para text-dark"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-anchor-placement="center-bottom"
-            >
-              You’ll find us at all hours on Discord. You can also reach us
-              through the usual channels.
-            </p>
-            <div class="input-group input-group-lg position-relative">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Enter your Email.."
-                aria-label="Sizing example input"
-                aria-describedby="inputGroup-sizing-lg"
-                data-aos="zoom-in-up"
-                data-aos-duration="1500"
-              />
-              <button
-                class="input-group-text"
-                id="inputGroup-sizing-lg"
-                data-aos="fade-right"
-                data-aos-duration="1500"
-              >
-                Sign up
-              </button>
-              <img
-                src="/assets/image/svg/inbox.svg"
-                alt=" inbox"
-                class="position-absolute inbox"
-                data-aos="zoom-in-up"
-                data-aos-duration="1500"
-              />
+          <div class="col-12 col-lg-5 my-auto">
+            <div class="w-100 text-center">
+              <img src="/assets/image/png/our_mission/our_mission.png" alt="Our-Mission" class="w-75"
+                data-aos="zoom-in-right" data-aos-duration="1500" />
             </div>
           </div>
         </div>
       </div>
+      <img src="/assets/image/png/our_mission/our_mission_side_dots.png"
+        class="position-absolute our_mission_side_dots grow_shrink start-0" alt="" />
     </section>
-    <!-------------------------- FOOTER SECTION ------------------------>
-    <footer class="bg_footer pt-5 pb-1 position-relative">
-      <div class="container mb-5">
+    <!--=-=-==-=-=--==-==-=-=-=- WE-OFFER =-=-==-=-=--==-==-=-=-=- -->
+    <section class="py-3 py-md-4 py-lg-5 position-relative" id="Offer">
+      <div class="container">
         <div class="row justify-content-center">
-          <div class="col-10 col-md-6 text-center text-md-start mb-4 mb-md-0">
-            <div>
-              <a href="#">
-                <img
-                  src="./assets/image/png/footer/footer_logo.png"
-                  data-aos="zoom-in-down"
-                  data-aos-duration="1500"
-                  alt="footer-logo"
-                />
-              </a>
-            </div>
-            <p
-              class="para color_white mt-3 mb-4 opacity_7"
-              data-aos="fade-right"
-              data-aos-duration="1500"
-            >
-              retdsed nunc faucibus nunc Lobortisvi
+          <div class="col-12 col-lg-5 text-center z_index_5">
+            <h2 class="main_heading light_brown pb-1 pb-md-2 pb-lg-3" data-aos="zoom-in-down" data-aos-duration="1500">
+              We Offer
+            </h2>
+            <p class="para text-dark" data-aos="fade-up" data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom">
+              Heat, cold, breath, movement and meditation circuit that can be
+              followed in class format or a la carte [free flow].
             </p>
+          </div>
+        </div>
+        <div class="row pt-3 pt-md-4">
+          <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5">
             <div>
-              <a href="#" data-aos="zoom-in-up" data-aos-duration="1500">
-                <img
-                  src="./assets/image/svg/footer_discord.svg"
-                  alt="discord-icon"
-                  class="rotate"
-                />
-              </a>
-              <a href="#" class="mx-3">
-                <img
-                  src="./assets/image/svg/footer_twitter.svg"
-                  alt="twitter-icon"
-                  class="rotate"
-                />
-              </a>
-              <a href="#">
-                <img
-                  src="./assets/image/svg/footer_insta.svg"
-                  alt="insta-icon"
-                  class="rotate"
-                />
-              </a>
+              <img src="/assets/image/png/we_offer/card_one.png" alt="card_one" class="w-100 img_zoom"
+                data-aos="zoom-in-right" data-aos-duration="1500" />
+              <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
+                <h4 class="fs_md fw-semibold light_brown pb-1">Heat</h4>
+                <p class="para text-dark">
+                  Quis eu a neque aenean. Cursus enim
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-11 col-md-6 text-center text-md-start">
-            <div
-              class="row justify-content-center"
-              data-aos="zoom-in-up"
-              data-aos-duration="1500"
-            >
-              <div class="col-4 col-md-2">
-                <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
-                  About
-                </h6>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
+          <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5">
+            <div class="">
+              <img src="/assets/image/png/we_offer/card_two.png" alt="card_two" class="w-100 img_zoom"
+                data-aos="zoom-in-up" data-aos-duration="1500" />
+              <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
+                <h4 class="fs_md fw-semibold light_brown pb-1">Cold</h4>
+                <p class="para text-dark">
+                  Quis eu a neque aenean. Cursus enim
                 </p>
               </div>
-              <div class="col-4 col-md-2">
-                <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
-                  About
-                </h6>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5">
+            <div class="">
+              <img src="/assets/image/png/we_offer/card_three.png" data-aos="zoom-in-up" data-aos-duration="1500"
+                alt="card_three" class="w-100 img_zoom" />
+              <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
+                <h4 class="fs_md fw-semibold light_brown pb-1">Breath</h4>
+                <p class="para text-dark">
+                  Quis eu a neque aenean. Cursus enim
                 </p>
               </div>
-              <div class="col-4 col-md-2">
-                <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
-                  About
-                </h6>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-                <p>
-                  <a href="#" class="footer_link">About</a>
-                </p>
-              </div>
-              <div class="col-10 col-md-6 mt-4 mt-md-0">
-                <h6 class="fs_sm fw_semibold ff_inter color_white mb-1 mb-md-4">
-                  Privacy
-                </h6>
-                <p class="fs_sm fw_regular ff_inter color_white opacity_7">
-                  Dolor, elementum convallis arcu bibendum senectus praesent
-                  egestas commodo Lobortis.
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 text-center cursor_point cards_shadow z_index_5">
+            <div class="">
+              <img src="/assets/image/png/we_offer/card_four.png" alt="card_four" class="w-100 img_zoom"
+                data-aos="zoom-in-left" data-aos-duration="1500" />
+              <div class="px-1 px-md-4 px-xl-3 mx-3 mx-md-3 mx-lg-3 py-4">
+                <h4 class="fs_md fw-semibold light_brown pb-1">Movement</h4>
+                <p class="para text-dark">
+                  Quis eu a neque aenean. Cursus enim
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <span class="footer_under_line opacity_7 d-block"></span>
-      <p
-        class="text-center color_white fs_sm fw-normal ff_inter opacity_7 mb-0 py-2"
-      >
-        copyright@2022
-      </p>
-      <img
-        src="/assets/image/png/footer/footer_bottom_plant.png"
-        class="position-absolute footer_bottom_plant grow_shrink start-0"
-        alt=""
-      />
-      <img
-        src="/assets/image/png/footer/footer_bottom_right_dots.png"
-        class="position-absolute footer_bottom_right_dots grow_shrink end-0"
-        alt=""
-      />
-    </footer>
-    <!------------------- back-to-top ----------------- -->
-    <section>
-      <div class="container">
-        <button onclick="topFunction()" id="myBtn" title="Go to top">
-          Top
-        </button>
-      </div>
-    </section>
 
-    <!-- =-=-=-=-=-=-=-==-=-=-=-==-=-BOOTSTRAB-LINK =-=-=-=-=-=-=-==-=-=-=-==-=- -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <!-- min-js -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!------------------------------JQUERY-MIN-JS-LINK--------------------------- -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!------------------------------SLICK-MIN-JS-LINK--------------------------- -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- AOS-ANIMATION-SCRIPT  -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--=-=-=-=-=-=-=-=-=-==-==--= COUSTOM-JS-LINK =-=-=-=-=-=-=-=-=-==-==--= -->
-    <script src="./assets/js/custom.js"></script>
-  </body>
+      <img src="/assets/image/png/we_offer/bottom_dots_set.png "
+        class="position-absolute bottom_dots_set grow_shrink start-0" alt="bottom_dots_set" />
+    </section>
+  </main>
+  <!-------------------------- CONTACT US SECTION ------------------------>
+  <section class="bg_contact py-5" id="Contact">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-between">
+        <div class="col-10 col-md-4">
+          <h2 class="fs_2xl fw-normal ff_oregano light_brown" data-aos="zoom-in-down" data-aos-duration="1500">
+            Contact Us
+          </h2>
+          <p class="para text-dark mb-4" data-aos="fade-up" data-aos-duration="1500"
+            data-aos-anchor-placement="center-bottom">
+            You’ll find us at all hours on Discord. You can also reach us
+            through the usual channels.
+          </p>
+          <a href="#" class="common_btn fw_regular" data-aos="fade-right" data-aos-duration="1500">Get In Touch</a>
+        </div>
+        <div class="col-10 col-md-6 mt-5 mt-md-4">
+          <h3 class="fs_xxl fw-normal ff_oregano light_brown" data-aos="zoom-in-down" data-aos-duration="1500">
+            Get the latest updates
+          </h3>
+          <p class="para text-dark" data-aos="fade-up" data-aos-duration="1500"
+            data-aos-anchor-placement="center-bottom">
+            You’ll find us at all hours on Discord. You can also reach us
+            through the usual channels.
+          </p>
+          <div class="input-group input-group-lg position-relative">
+            <input type="text" class="form-control" placeholder="Enter your Email.." aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg" data-aos="zoom-in-up" data-aos-duration="1500" />
+            <button class="input-group-text" id="inputGroup-sizing-lg" data-aos="fade-right" data-aos-duration="1500">
+              Sign up
+            </button>
+            <img src="/assets/image/svg/inbox.svg" alt=" inbox" class="position-absolute inbox" data-aos="zoom-in-up"
+              data-aos-duration="1500" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------- FOOTER SECTION ------------------------>
+  <footer class="bg_footer pt-5 pb-1 position-relative">
+    <div class="container mb-5">
+      <div class="row justify-content-center">
+        <div class="col-10 col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <div>
+            <a href="#">
+              <img src="./assets/image/png/footer/footer_logo.png" data-aos="zoom-in-down" data-aos-duration="1500"
+                alt="footer-logo" />
+            </a>
+          </div>
+          <p class="para color_white mt-3 mb-4 opacity_7" data-aos="fade-right" data-aos-duration="1500">
+            retdsed nunc faucibus nunc Lobortisvi
+          </p>
+          <div>
+            <a href="#" data-aos="zoom-in-up" data-aos-duration="1500">
+              <img src="./assets/image/svg/footer_discord.svg" alt="discord-icon" class="rotate" />
+            </a>
+            <a href="#" class="mx-3">
+              <img src="./assets/image/svg/footer_twitter.svg" alt="twitter-icon" class="rotate" />
+            </a>
+            <a href="#">
+              <img src="./assets/image/svg/footer_insta.svg" alt="insta-icon" class="rotate" />
+            </a>
+          </div>
+        </div>
+        <div class="col-11 col-md-6 text-center text-md-start">
+          <div class="row justify-content-center" data-aos="zoom-in-up" data-aos-duration="1500">
+            <div class="col-4 col-md-2">
+              <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
+                About
+              </h6>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+            </div>
+            <div class="col-4 col-md-2">
+              <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
+                About
+              </h6>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+            </div>
+            <div class="col-4 col-md-2">
+              <h6 class="fs_sm fw_semibold ff_inter color_white mb-4">
+                About
+              </h6>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+              <p>
+                <a href="#" class="footer_link">About</a>
+              </p>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <h6 class="fs_sm fw_semibold ff_inter color_white mb-1 mb-md-4">
+                Privacy
+              </h6>
+              <p class="fs_sm fw_regular ff_inter color_white opacity_7">
+                Dolor, elementum convallis arcu bibendum senectus praesent
+                egestas commodo Lobortis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="footer_under_line opacity_7 d-block"></span>
+    <p class="text-center color_white fs_sm fw-normal ff_inter opacity_7 mb-0 py-2">
+      copyright@2022
+    </p>
+    <img src="/assets/image/png/footer/footer_bottom_plant.png"
+      class="position-absolute footer_bottom_plant grow_shrink start-0" alt="" />
+    <img src="/assets/image/png/footer/footer_bottom_right_dots.png"
+      class="position-absolute footer_bottom_right_dots grow_shrink end-0" alt="" />
+  </footer>
+  <!------------------- back-to-top ----------------- -->
+  <section>
+    <div class="container">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Top
+      </button>
+    </div>
+  </section>
+
+  <!-- =-=-=-=-=-=-=-==-=-=-=-==-=-BOOTSTRAB-LINK =-=-=-=-=-=-=-==-=-=-=-==-=- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+  </script>
+  <!-- min-js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <!------------------------------JQUERY-MIN-JS-LINK--------------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!------------------------------SLICK-MIN-JS-LINK--------------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- AOS-ANIMATION-SCRIPT  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--=-=-=-=-=-=-=-=-=-==-==--= COUSTOM-JS-LINK =-=-=-=-=-=-=-=-=-==-==--= -->
+  <script src="./assets/js/custom.js"></script>
+</body>
+
 </html>

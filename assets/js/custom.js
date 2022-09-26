@@ -43,17 +43,18 @@ $(".slick_slider").slick({
   centerMode: true,
   centerPadding: "60px",
   slidesToShow: 2,
-  dots: false,
+  dots: true,
   infinite: true,
   slidesToScroll: 1,
-  responsive: [
-    {
+  // autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [{
       breakpoint: 768,
       settings: {
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
-        slidesToShow: 2,
+        slidesToShow: 1,
         dots: true,
       },
     },
