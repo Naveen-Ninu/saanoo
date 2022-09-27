@@ -394,7 +394,7 @@ input[type="checkbox"] {
 }
 
 .slick-active.slick-center {
-  transform: translateY(-145px) !important;
+  transform: translateY(-136px) !important;
   transform: scale(50%, -50%);
   transition: all ease 0.8s;
   z-index: 999;
@@ -402,8 +402,8 @@ input[type="checkbox"] {
 }
 
 .slick-dots li button:before {
-  font-family: slick;
-  font-size: 0px;
+  font-family: none !important;
+  font-size: 0px !important;
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -424,6 +424,7 @@ input[type="checkbox"] {
   text-align: center !important;
 }
 
+/* 
 .slick-dots li {
   display: inline-block !important;
   padding: 1px !important;
@@ -445,46 +446,17 @@ input[type="checkbox"] {
 
 .slick-dots {
   position: absolute;
-  bottom: -50px !important;
-  left: 145px !important;
+  bottom: -10px !important;
+  left: 16px !important;
   display: block;
   width: 100%;
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: center;
-}
-
-/* .slick-slide .slick-center {
-  transform: translateY(-45px) !important;
-}
-
-.slick_slider1 .slick-dots li.slick-active button:before {
-  color: var(--clr-primary) !important;
-}
-
-.slick_slider1 .slick-dots li button:before {
-  color: var(--clr-primary) !important;
-  font-size: 10px !important;
-}
-
-.slick_slider .slick-current {
-  transition: all 1.2s linear;
-}
-
-.slick_slider1 .slick-dots li button:before {
-  content: "" !important;
-  width: 100px;
-  background-color: var(--clr-cremy);
-  height: 6px;
-  border-radius: 20px;
-}
-
-.slick_slider1 .slick-dots li.slick-active button:before {
-  width: 50px;
-  background-color: var(--clr-primary);
-  z-index: 10;
 } */
+
+
 
 
 
