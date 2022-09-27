@@ -71,7 +71,6 @@ AOS.init({
 //   ],
 // });
 
-
 $(".slick_slider").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -80,10 +79,12 @@ $(".slick_slider").slick({
   dots: true,
   speed: 1000,
   centerPadding: "",
+  autoplay: true,
   autoplaySpeed: 1300,
   infinite: true,
   // autoplay: true,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 992,
       settings: {
         slidesToShow: 2,

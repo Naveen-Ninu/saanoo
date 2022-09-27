@@ -224,17 +224,17 @@ html {
 }
 
 .navbar_btn {
-  background: #3A2314;
+  background: #3a2314;
   color: var(--color_white);
-  border: 0.5px solid #3A2314;
+  border: 0.5px solid #3a2314;
   border-radius: 3px;
   padding: 12px 30px;
 }
 
 .navbar_btn:hover {
   background: var(--color_white);
-  color: #3A2314;
-  border: 0.5px solid #3A2314;
+  color: #3a2314;
+  border: 0.5px solid #3a2314;
   border-radius: 3px;
   padding: 12px 30px;
 }
@@ -281,7 +281,7 @@ html {
   top: 35px;
 }
 
-.dropdown li+li {
+.dropdown li + li {
   margin-top: 10px;
 }
 
@@ -330,11 +330,11 @@ input[type="checkbox"] {
     transition: 0.3s ease;
   }
 
-  .menu li+li {
+  .menu li + li {
     margin-top: 12px;
   }
 
-  input[type="checkbox"]:checked~.menu {
+  input[type="checkbox"]:checked ~ .menu {
     display: block;
   }
 
@@ -410,9 +410,9 @@ input[type="checkbox"] {
   left: 0;
   width: 45px;
   height: 20px;
-  content: '•';
+  content: "•";
   text-align: center;
-  opacity: .25;
+  opacity: 0.25;
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -422,6 +422,14 @@ input[type="checkbox"] {
 
 .slick-dots {
   text-align: center !important;
+}
+.over_flow_lg {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.height_60vh {
+  height: 75vh !important;
 }
 
 /* 
@@ -455,10 +463,6 @@ input[type="checkbox"] {
   list-style: none;
   text-align: center;
 } */
-
-
-
-
 
 /* ----------------------------Theyself------------------------------- */
 .theyself_bg_clr {
@@ -537,17 +541,18 @@ input[type="checkbox"] {
   border: 0.2px solid #3a2314 !important;
 }
 
-.input-group-lg>.btn,
-.input-group-lg>.form-control,
-.input-group-lg>.form-select,
-.input-group-lg>.input-group-text {
+.input-group-lg > .btn,
+.input-group-lg > .form-control,
+.input-group-lg > .form-select,
+.input-group-lg > .input-group-text {
   padding: 15px 42px !important;
   font-size: 1.25rem;
   border-radius: -1.7rem;
   box-shadow: 0px 9.89506px 24.0309px -5.65432px rgba(0, 0, 0, 0.25) !important;
 }
 
-.input-group> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -10px !important;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -757,18 +762,29 @@ input[type="checkbox"] {
 }
 
 /*--------------------------------------------- ALL_MEDIA_QUARIES-CSS --------------------------------------------- */
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+}
 
-@media (max-width: 1799.98px) {}
+@media (max-width: 1799.98px) {
+}
 
-@media (max-width: 1599.98px) {}
+@media (max-width: 1599.98px) {
+}
 
-@media (max-width: 1399.98px) {}
+@media (max-width: 1399.98px) {
+}
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+  .height_60vh {
+    height: 90vh !important;
+  }
+}
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+}
 
-@media (max-width: 499.98px) {}
+@media (max-width: 499.98px) {
+}
 
-@media (max-width: 399.98px) {}
+@media (max-width: 399.98px) {
+}
