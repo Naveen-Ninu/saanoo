@@ -382,8 +382,6 @@ input[type="checkbox"] {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(66.5px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 15.009px;
 }
 
@@ -431,39 +429,6 @@ input[type="checkbox"] {
 .height_60vh {
   height: 75vh !important;
 }
-
-/* 
-.slick-dots li {
-  display: inline-block !important;
-  padding: 1px !important;
-  background: #ca9978 !important;
-  margin: 10px 5px !important;
-  width: 40px !important;
-  height: 4px !important;
-  border-radius: 10px !important;
-  cursor: pointer !important;
-}
-
-.slick-dots li.slick-active {
-  background: #3a2314 !important;
-}
-
-.slick-dots button {
-  display: none !important;
-}
-
-.slick-dots {
-  position: absolute;
-  bottom: -10px !important;
-  left: 16px !important;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-} */
-
 /* ----------------------------Theyself------------------------------- */
 .theyself_bg_clr {
   background: #fffbf5;
